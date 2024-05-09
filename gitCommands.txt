@@ -9,4 +9,6 @@ git diff - to show differences between already added and not added changes
 git log - to see all commits to the repository with author info, date and checksum
 git show <checksum> - to see details of a particular commit
 git log --grep='keyWord' - to find a commit by a keyWord
+git restore --staged <fileName> - to get back unneccessary changes that were added with git add
+git restore . - to restore all changes that were added with git add
 
