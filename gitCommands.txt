@@ -7,8 +7,9 @@ git commit -m "Comment" - to commit added files
 git push - to push changes to remote repository
 git diff - to show differences between already added and not added changes
 git log - to see all commits to the repository with author info, date and checksum
+git log --oneline - to see all commits each in one line (short)
 git show <checksum> - to see details of a particular commit
 git log --grep='keyWord' - to find a commit by a keyWord
 git restore --staged <fileName> - to get back unneccessary changes that were added with git add
 git restore . - to restore all changes that were added with git add
-
+git revert <commitID> - to revert to a certail commit
