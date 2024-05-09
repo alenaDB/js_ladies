@@ -1,0 +1,7 @@
+git clone <http> - to clone the repository from cloud to local
+git init - Create an empty Git repository or reinitialize an existing one
+git branch <name> - create a new branch
+git checkout <branch name> - to switch to a particular branch
+git add - to add a file to stage area (to be tracked by git) 
+git commit -m "Comment" - to commit added files
+git push  
