@@ -6,6 +6,7 @@ git add - to add a file to stage area (to be tracked by git)
 git commit -m "Comment" - to commit added files
 git push - to push changes to remote repository
 git diff - to show differences between already added and not added changes
+git diff --cached - to see tha changes in the staging area
 git log - to see all commits to the repository with author info, date and checksum
 git log --oneline - to see all commits each in one line (short)
 git show <checksum> - to see details of a particular commit
